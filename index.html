@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Valley Kalimpong</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('bg.jpg');
+            color: #ffffff;
+        }
+
+        header {
+            background-image: url('bg.jpg');
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #728d33;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #556b2f;
+            color: #fff;
+        }
+
+        .hero {
+            background-image: url('925.jpeg');
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            background-color: rgb(82, 145, 106);
+            padding: 15px;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .rooms, .amenities {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            background-color: #95a86a;
+            width: 28%;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 0 5px rgb(251, 250, 250);
+            border-radius: 5px;
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #3a3939;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mission Valley Kalimpong</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#interior">Interior</a>
+    <a href="#exterior">Exterior</a>
+    <a href="#services">Services</a>
+    <a href="#bookingsite">Booking Sites</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Your Home Away from Home</h2>
+        <p>Comfortable stays at affordable prices.</p>
+    </div>
+</section>
+
+<section class="content" id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="rooms">
+        <div class="box">
+            <img src="singleroom.jpeg" alt="Standard Room">
+            <h3>Single Room</h3>
+            <p>Cozy room with essential amenities.</p>
+        </div>
+    <div class="rooms">
+        <div class="box">
+            <img src="doubleroom.jpg" alt="Standard Room">
+            <h3>Double Room</h3>
+            <p>Perfect room for couples.</p>
+        </div>
+        <div class="box">
+            <img src="familyroom.jpg" alt="Family Room">
+            <h3>Family Room</h3>
+            <p>Spacious room perfect for families.</p>
+        </div>
+        <div class="box">
+            <img src="quadroom.jpg" alt="Quad Room">
+            <h3>Quad Room</h3>
+            <p>Budget-friendly room for 4 people.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content" id="interior">
+    <h2>Interior</h2>
+    <div class="rooms">
+        <div class="box">
+            <img src="reception.jpg" alt="Reception">
+            <h3>Reception</h3>
+            <p>Our reception is welcoming, professional, friendly, organized, helpful, and efficient, ensuring a smooth and pleasant check-in experience for every guest.</p>
+        </div>
+    <div class="rooms">
+        <div class="box">
+            <img src="diningarea.jpg" alt="Dining Area">
+            <h3>Dining Area</h3>
+            <p>Experience exquisite dining with elegant ambiance, exceptional service, and delectable cuisine.</p>
+        </div>
+    <div class="box">
+            <img src="lounge.jpg" alt="Lounge">
+            <h3>Lounge</h3>
+            <p>A stylish, comfortable lounge perfect for relaxation.</p>
+        </div>
+    <div class="box">
+            <img src="hall.jpg" alt="Hall">
+            <h3>Hall</h3>
+            <p>A spacious, elegant hall ideal for events.</p>
+        </div>
+    <div class="box">
+            <img src="balcony.jpeg" alt="Balcony">
+            <h3>Balcony</h3>
+            <p>A spacious balcony offering breathtaking views, perfect for relaxation.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content" id="exterior">
+    <h2>Exterior</h2>
+    <div class="rooms">
+        <div class="box">
+            <img src="exterior1.png" alt="exterior1">
+        </div>
+        <div class="box">
+            <img src="exterior2.jpeg" alt="exterior2">
+        </div>
+        <div class="box">
+            <img src="exterior3.jpg" alt="exterior3">
+        </div>
+    </div>
+</section>
+
+<section class="content" id="services">
+    <h2>Our Services</h2>
+    <div class="amenities">
+        <div class="box">
+            <h3>Free Wi-Fi</h3>
+            <p>Stay connected during your stay.</p>
+        </div>
+        <div class="box">
+            <h3>Complimentary Breakfast</h3>
+            <p>Start your day with a hearty meal.</p>
+        </div>
+        <div class="box">
+            <h3>Free Toiletries</h3>
+            <p>Enjoy the comfort of home with our complimentary toiletries!</p>
+        </div>
+        <div class="box">
+            <h3>Room Service</h3>
+            <p>Experience convenience at your fingertips with our prompt room service. Enjoy delicious meals, snacks, and beverages delivered right to your room, ensuring a comfortable and relaxing stay.</p>
+        </div>
+        <div class="box">
+            <img src="parkingarea.jpg" alt="Parking">
+            <h3>Free Parking</h3>
+            <p>Convenient on-site parking.</p>
+        </div>
+    </div>
+</section>
+
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Links</title>
+    <style>
+        /* Styling for the container */
+        .links-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Styling for individual logos */
+        .logo {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        /* Hover effect on the logos */
+        .logo:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Click the logos to book your stay through our trusted booking platforms:</h2>
+<section class="content" id="bookingsite">
+    <div class="links-container">
+        <a href="https://www.booking.com" target="_blank">
+            <img src="b.png" alt="Booking.com" class="logo">
+        </a>
+        <a href="https://www.agoda.com" target="_blank">
+            <img src="agoda.png" alt="Agoda" class="logo">
+        </a>
+        <a href="https://www.tripadvisor.com" target="_blank">
+            <img src="Tripadvisor.png" alt="TripAdvisor" class="logo">
+        </a>
+        <a href="https://www.airbnb.com" target="_blank">
+            <img src="airbnb.png" alt="Airbnb" class="logo">
+        </a>
+        <a href="https://www.expedia.com" target="_blank">
+            <img src="klipartz.com.png" height="200" alt="Expedia" class="logo">
+        </a>
+    </div>
+</section>
+
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .contact-container {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-number {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .contact-number a {
+            text-decoration: none;
+            color: #fdfdfd;
+        }
+
+        .contact-number a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-container" id="contact">
+        <div class="contact-number">
+            📞 <a href="tel:+91 8509008812">+91 8509008812</a>
+        </div>
+        <div class="contact-number">
+            📞 <a href="tel:+91 8509495843">+91 8509495843</a>
+        </div>
+        <div class="contact-number">
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGKnXFkphnkwlQMRMjSxHdvKbMzcqtwzHJLvVZbCcZDQZtRQRDKrNhlQKhqtdCNjHJnMcXx">missionvalley19@gmail.com</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<footer>
+    <p>&copy; 2025 Mission Valley Kalimpong. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
